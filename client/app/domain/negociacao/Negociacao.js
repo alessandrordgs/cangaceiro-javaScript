@@ -7,7 +7,6 @@ class Negociacao {
     this._data = new Date(_data.getTime());
     Object.freeze(this)
   }
-
   get volume() {
     return this._quantidade * this._valor
   }

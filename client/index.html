@@ -12,7 +12,7 @@
 <body class="container">
 
     <h1 class="text-center">Negociações</h1>
-
+    <div id="mensagemView" ></div>
     <form class="form">
 
         <div class="form-group">
@@ -43,27 +43,17 @@
     </div>
     <br>
     <br>
+    <div class="negociacoes">
 
-    <table class="table table-hover table-bordered">
-        <thead>
-            <tr>
-                <th>DATA</th>
-                <th>QUANTIDADE</th>
-                <th>VALOR</th>
-                <th>VOLUME</th>
-            </tr>
-        </thead>
-
-        <tbody>
-        </tbody>
-
-        <tfoot>
-        </tfoot>
-    </table>
+    </div>
     <script src="./app/ui/converters/DateConverter.js"></script>
     <script src="./app/domain/negociacao/Negociacao.js"></script>
     <script src="./app/Controllers/NegociacaoController.js"></script>
     <script src="./app/domain/negociacao/Negociacoes.js"></script>
+
+    <script src="./app//ui/Views/NegociacoesView.js"></script>
+    <script src="./app/ui/Models/Mensagem.js"></script>
+    <script src="./app/ui/Views/MensagemView.js"></script>
     <script src="./app/app.js"></script>
 </body>
 
